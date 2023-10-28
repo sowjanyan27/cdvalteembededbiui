@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Apply these styles to your Power BI report container */
+.reportContainer {
+  width: 800px; /* Set your desired width in pixels */
+  height: 600px; /* Set your desired height in pixels */
+  border: 1px solid #ccc; /* Optional: Add a border for visualization */
+  margin: 0 auto; /* Optional: Center the container horizontally */
+}
+
+/* Style for the Power BI report itself */
+.reportClass {
+  width: 100%; /* Ensure the report fills the container width */
+  height: 100%; /* Ensure the report fills the container height */
+}
+
